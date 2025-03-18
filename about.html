@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- esures special characters display correctly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Gym Fitness</title>
+    <style>
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .logo-banner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .logo-banner img {
+            height: 100px;
+            margin-right: 10px;
+        }
+
+        .logo-text {
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        /* navigation bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-size: 1.2em;
+            margin: 0 15px;
+            background-color: #444;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #333;
+        }
+
+        .about {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about h2 {
+            font-size: 2.5em;
+            color: rgb(3, 3, 3);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .about h3 {
+            font-size: 2em;
+            color: rgb(3, 3, 3);
+            margin-top: 40px;
+        }
+
+        .about ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .about ul li {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .about img {
+            display: block;
+            margin: 40px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* mobile friendly styles */
+        @media (max-width: 768px) {
+            .about {
+                padding: 20px;
+            }
+
+            .about h2, .about h3 {
+                font-size: 2em;
+            }
+
+            nav a {
+                font-size: 1em;
+                padding: 10px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-banner"> <!-- organize elements on the page. (ulit na naman)  -->
+            <img src="images/logo.jpg" alt="KK Fitness Logo">
+            <div class="logo-text">KK FITNESS</div>
+        </div>
+        <nav>
+            <a href="index.html" target="_self">Home</a>
+            <a href="services.html" target="_self">Services</a>
+            <a href="about.html" target="_self">About Us</a>
+        </nav>
+    </header>
+
+    <section class="about"> <!-- group content(about) -->
+        <h2>About KK Fitness</h2>
+        <p>At KK Fitness, we provide everything you need to enhance your fitness journey. Specializing in high-quality gym accessories, supplements, and fitness apparel, we’re here to support your workouts with the best gear and products. Whether you're lifting, running, or recovering, we’ve got you covered with top-of-the-line products designed for performance, comfort, and results.</p>
+        
+        <h3>Our Values</h3>
+        <ul>
+            <li>Integrity: We uphold the highest standards of honesty and accountability.</li>
+            <li>Community: We foster a sense of belonging and support among our members.</li>
+            <li>Excellence: We strive for excellence in everything we do, from our facilities to our trainers.</li>
+        </ul>
+    </section>
+</body>
+</html>
